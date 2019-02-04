@@ -1,5 +1,5 @@
-source .functions
-source .aliases
+source ~/.functions
+source ~/.aliases
 
 
 export PATH=/usr/local/bin:/Users/yihwan/.composer/vendor/bin:$PATH

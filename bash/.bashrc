@@ -1,3 +1,6 @@
+source ~/.functions
+source ~/.aliases
+
 alias composer="php /usr/local/bin/composer"
 export PATH=/usr/local/bin:/Users/yihwan/.composer/vendor/bin:$PATH
 
