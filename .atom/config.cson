@@ -1,0 +1,62 @@
+"*":
+  "atom-ide-ui":
+    hyperclick:
+      darwinTriggerKeys: "altKey"
+    use:
+      hyperclick: "always"
+  "autoclose-html":
+    forceInline: [
+      "*"
+    ]
+  core:
+    customFileTypes:
+      "source.ini": [
+        ".hgrc"
+        ".buckconfig"
+        ".flowconfig"
+      ]
+      "source.json": [
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    telemetryConsent: "no"
+    themes: [
+      "one-light-ui"
+      "one-light-syntax"
+    ]
+  editor:
+    fontSize: 15
+  "exception-reporting":
+    userId: "1ba5e14c-49de-456d-8055-d778d5927904"
+  hyperclick:
+    darwinTriggerKeys: "ctrlKey"
+  "linter-ui-default":
+    panelHeight: 300
+  "platformio-ide-terminal":
+    ansiColors:
+      normal:
+        green: "#009b00"
+      zBright:
+        brightCyan: "#00cdcd"
+        brightGreen: "#009b00"
+        brightMagenta: "#cd00cd"
+        brightRed: "#cd0000"
+        brightYellow: "#cdcd01"
+    iconColors:
+      cyan: "#00cdcd"
+      green: "#009b00"
+      magenta: "#cd00cd"
+      red: "#cd0000"
+      yellow: "#cdcd01"
+    style: {}
+  react:
+    enabledForAllJavascriptFiles: true
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
+  whitespace: {}
+".html.php.text":
+  editor:
+    tabLength: 4
