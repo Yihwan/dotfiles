@@ -1,0 +1,15 @@
+packages: [
+  "autoclose-html"
+  "busy-signal"
+  "hyperclick"
+  "intentions"
+  "js-hyperclick"
+  "linter"
+  "linter-eslint"
+  "linter-ui-default"
+  "package-sync"
+  "php-hyperclick"
+  "pigments"
+  "platformio-ide-terminal"
+  "react"
+]
