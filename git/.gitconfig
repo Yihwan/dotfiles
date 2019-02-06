@@ -1,8 +1,8 @@
 # This is Git's per-user configuration file.
 [user]
 # Please adapt and uncomment the following lines:
-	name = Yihwan Kim
-	email = yihwan@Yihwans-MacBook-Pro.local
+	name = yihwan
+	email = hi@yihwan.kim
 [alias]
 [alias]
 	a = add
