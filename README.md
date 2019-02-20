@@ -17,12 +17,16 @@ ln -sv ~/Developer/dotfiles/bash/.bashrc ~
 
 ### git
 `rm .gitconfig`
+
 `ln -sv ~/Developer/dotfiles/git/.gitconfig ~`
 
 ### vim
 `rm rf ~/.vim`
+
 `ln -sv ~/Developer/dotfiles/vim/.vim ~/.vim`
+
 `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+
 `vim +PluginInstall +qall`
 
 ### atom
