@@ -31,6 +31,7 @@ ln -sv ~/Developer/dotfiles/git/.gitconfig ~
 ### vim
 rm rf ~/.vim
 ln -sv ~/Developer/dotfiles/vim/.vim ~/.vim
+ln -sv ~/Developer/dotfiles/vim/.vimrc ~
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
 
