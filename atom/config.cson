@@ -27,7 +27,7 @@
       "one-light-syntax"
     ]
   editor:
-    fontSize: 17
+    fontSize: 16
   "exception-reporting":
     userId: "1ba5e14c-49de-456d-8055-d778d5927904"
   "git-blame":
