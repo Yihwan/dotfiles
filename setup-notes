@@ -1,0 +1,96 @@
+# New Machine Setup Notes (Mac OS)
+# Script later
+
+# Install Xcode CLI
+xcode-select --install
+
+# Install homebrew
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# Install apps
+homebrew cask install atom
+...
+
+brew install git
+
+# Setup symlinks
+## Setup
+Script all of this later.
+
+### bash
+rm .aliases .functions .bash_profile .bashrc
+ln -sv ~/Developer/dotfiles/bash/.aliases ~
+ln -sv ~/Developer/dotfiles/bash/.functions ~
+ln -sv ~/Developer/dotfiles/bash/.bash_profile ~
+ln -sv ~/Developer/dotfiles/bash/.bashrc ~
+
+### git
+rm .gitconfig
+ln -sv ~/Developer/dotfiles/git/.gitconfig ~
+
+### vim
+rm rf ~/.vim
+ln -sv ~/Developer/dotfiles/vim/.vim ~/.vim
+ln -sv ~/Developer/dotfiles/vim/.vimrc ~
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+vim +PluginInstall +qall
+
+### atom
+apm install package-sync
+
+ln -sv ~/Developer/dotfiles/atom/config.cson ~/.atom
+ln -sv ~/Developer/dotfiles/atom/github.cson ~/.atom
+ln -sv ~/Developer/dotfiles/atom/init.coffee ~/.atom
+ln -sv ~/Developer/dotfiles/atom/keymap.cson ~/.atom
+ln -sv ~/Developer/dotfiles/atom/packages.cson ~/.atom
+ln -sv ~/Developer/dotfiles/atom/snippets.cson ~/.atom
+ln -sv ~/Developer/dotfiles/atom/styles.less ~/.atom
+
+package-sync:sync
+
+# Install dotfiles to Developer dir
+
+# RUBY
+
+brew install rbenv ruby-build
+
+# Check to make sure rbenv loads in Terminal
+echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile
+source ~/.bash_profile
+
+# Install Ruby
+rbenv install 2.6.1
+rbenv global 2.6.1
+ruby -v
+
+# Install Rails
+gem install rails -v 5.2.2
+rbenv rehash
+
+rails -v
+# Rails 5.2.2
+
+# If Mojave
+sudo installer -pkg /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg -target /
+
+# Check install
+rails new myapp
+
+#### If you want to use MySQL
+rails new myapp -d mysql
+
+#### If you want to use Postgres
+# Note you will need to change config/database.yml's username to be
+# the same as your OSX user account. (for example, mine is 'chris')
+rails new myapp -d postgresql
+
+# Move into the application directory
+cd myapp
+
+# If you setup MySQL or Postgres with a username/password, modify the
+# config/database.yml file to contain the username/password that you specified
+
+# Create the database
+rake db:create
+
+rails server

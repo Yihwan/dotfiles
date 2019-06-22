@@ -27,9 +27,11 @@
       "one-light-syntax"
     ]
   editor:
-    fontSize: 15
+    fontSize: 17
   "exception-reporting":
     userId: "1ba5e14c-49de-456d-8055-d778d5927904"
+  "git-blame":
+    columnWidth: 449
   hyperclick:
     darwinTriggerKeys: "ctrlKey"
   "linter-ui-default":

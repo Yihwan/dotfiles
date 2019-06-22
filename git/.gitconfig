@@ -3,14 +3,16 @@
 # Please adapt and uncomment the following lines:
 	name = yihwan
 	email = hi@yihwan.kim
-[alias]
+
 [alias]
 	a = add
 	b = branch
 	c = commit
 	p = push
+	po = "!git push --set-upstream origin \"$(git rev-parse --abbrev-ref HEAD)\""
 	m = merge
 	d = diff
 	l = log
 	s = status
 	co = checkout
+	unstage = reset HEAD
