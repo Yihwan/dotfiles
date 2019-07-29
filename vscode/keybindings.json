@@ -1,0 +1,11 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+      "key": "cmd+shift+j",
+      "command": "workbench.action.terminal.focusNext"
+    },
+    {
+      "key": "cmd+shift+k",
+      "command": "workbench.action.terminal.focusPrevious"
+    },
+]

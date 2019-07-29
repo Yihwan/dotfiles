@@ -7,4 +7,5 @@
     "terminal.integrated.fontSize": 16,
     "editor.minimap.enabled": false,
     "window.zoomLevel": 0,
+    "editor.tabSize": 2, 
 }
