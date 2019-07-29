@@ -48,6 +48,16 @@ ln -sv ~/Developer/dotfiles/atom/styles.less ~/.atom
 
 package-sync:sync
 
+### vscode
+```
+mv ~/Library/Application\ Support/Code/User/settings.json ~/Developer/dotfiles/vscode/
+mv ~/Library/Application\ Support/Code/User/keybindings.json ~/Developer/dotfiles/vscode/
+mv ~/Library/Application\ Support/Code/User/snippets/ ~/Developer/dotfiles/vscode/
+
+ln -sv ~/Developer/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+ln -sv ~/Developer/dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
+ln -sv ~/Developer/dotfiles/vscode/snippets/ ~/Library/Application\ Support/Code/User
+```
 # Install dotfiles to Developer dir
 
 # RUBY

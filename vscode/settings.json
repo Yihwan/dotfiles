@@ -1,0 +1,10 @@
+{
+    "workbench.colorTheme": "Atom One Light",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontSize": 16,
+    "terminal.integrated.fontSize": 16,
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 0,
+}
