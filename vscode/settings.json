@@ -8,4 +8,9 @@
     "editor.minimap.enabled": false,
     "window.zoomLevel": 0,
     "editor.tabSize": 2, 
+    "editor.rulers": [80],
+    "workbench.colorCustomizations": {
+        "editorRuler.foreground": "#e8e8e8",
+    },
+    "workbench.iconTheme": null
 }
