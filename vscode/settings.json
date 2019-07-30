@@ -12,5 +12,6 @@
     "workbench.colorCustomizations": {
         "editorRuler.foreground": "#e8e8e8",
     },
-    "workbench.iconTheme": null
+    "workbench.iconTheme": null,
+    "workbench.editor.enablePreview": false,
 }
