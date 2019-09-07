@@ -19,4 +19,5 @@
         "node_modules/": true,
     },
     "window.reOpenFolders": "all",
+    "explorer.confirmDragAndDrop": false,
 }
