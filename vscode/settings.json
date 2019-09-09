@@ -16,12 +16,12 @@
     "workbench.editor.enablePreview": false,
     "javascript.implicitProjectConfig.experimentalDecorators": true,
     "files.exclude": {
-        "node_modules/": true,
+        "node_modules/": true
     },
     "window.reOpenFolders": "all",
     "javascript.updateImportsOnFileMove.enabled": "never",
     "[php]": {
         "editor.tabSize": 4
-    }
+    },
     "explorer.confirmDragAndDrop": false,
 }
