@@ -19,4 +19,8 @@
         "node_modules/": true,
     },
     "window.reOpenFolders": "all",
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "[php]": {
+        "editor.tabSize": 4
+    }
 }
