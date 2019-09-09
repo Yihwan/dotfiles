@@ -23,4 +23,5 @@
     "[php]": {
         "editor.tabSize": 4
     }
+    "explorer.confirmDragAndDrop": false,
 }
