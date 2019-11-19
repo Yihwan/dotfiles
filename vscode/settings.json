@@ -1,5 +1,4 @@
 {
-    "workbench.colorTheme": "Atom One Light",
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.formatOnPaste": true,
     "workbench.startupEditor": "newUntitledFile",
@@ -9,8 +8,157 @@
     "window.zoomLevel": 0,
     "editor.tabSize": 2, 
     "editor.rulers": [80],
+    "editor.tokenColorCustomizations": {
+        "strings": "#458b00",
+        "variables": "#ee2f01",
+        "comments": "#737373",
+        "keywords": "#a81143",
+        "functions": "#007bff",
+        // "numbers": "#FF0000",
+        // "types": "#FF0000",
+        "textMateRules": [
+            {
+                "scope": [
+                    "meta.method-call",
+                    "meta.tag.js",
+                    "meta.tag.js punctuation.section.embedded",
+                    "meta.brace.round.js",
+                    "meta.method",
+                    "punctuation.terminator.statement.js",
+                    "source.js punctuation.definition.block",
+                    "variable.other.readwrite.js",
+                    "punctuation.definition.parameters",
+                    "meta.class.js",
+                    "source.js punctuation.separator.comma",
+                    "meta.brace.square.js",
+                    "meta.definition.property.js variable",
+                    "meta.class.php",
+                    "meta.class.body",
+                    "keyword.operator",
+                ],
+                "settings": {
+                    "foreground": "#33302e",
+                }
+            },
+            {
+                "scope": [
+                    "entity.other.inherited-class",
+                    "string",
+                ],
+                "settings": {
+                    "foreground": "#458b00",
+                }
+            },
+            {
+                "scope": [
+                    "storage",
+                    "keyword",
+                ],
+                "settings": {
+                    "foreground": "#a81143",
+                }
+            },
+            {
+                "scope": [
+                    "variable",
+                    "variable.other.readwrite.alias.js",
+                    "meta.export.default.js variable.other.readwrite.js",
+                ],
+                "settings": {
+                    "foreground": "#ee2f01",
+                }
+            },
+            {
+                "scope": [
+                    "storage.type.property.js",
+                ],
+                "settings": {
+                    "foreground": "#2c6d9c",
+                }
+            },
+        ],
+    },
+    "workbench.colorTheme": "Atom One Light",
     "workbench.colorCustomizations": {
-        "editorRuler.foreground": "#e8e8e8",
+        "editorRuler.foreground": "#cad7d9",
+        "editorIndentGuide.background": "#cad7d9",
+
+        "editor.background": "#fff1e5",
+        "editor.foreground": "#000",
+        "editor.lineHighlightBackground": "#fff1e5",
+        "editor.lineHighlightBorder": "#fff9f4",
+        "editorLineNumber.activeForeground": "#000",
+        
+        "editor.selectionBackground": "#cad7d9",
+        "editor.wordHighlightBackground": "#e9e4db",
+
+        "sideBar.background": "#f2e5da",
+        "sideBar.foreground": "#333",
+        "sideBar.border": "#e9e4db",
+        "sideBarSectionHeader.background": "#f2dfce",
+        "sideBarSectionHeader.foreground": "#000",
+
+        "list.activeSelectionBackground": "#cce6ff",
+        "list.inactiveSelectionBackground": "#fff9f4",
+        "list.hoverBackground": "#cad7d9",
+
+        "editorGroup.border": "#0d7680",
+        "editorGroupHeader.tabsBackground": "#f2dfce",
+        
+        "tab.border": "#9c9e9e",
+        "tab.unfocusedActiveBackground": "#cad7d9",
+        "tab.unfocusedActiveForeground": "#ffffff",
+        "tab.activeBackground": "#0d7680",
+        "tab.activeForeground": "#ffffff",
+        "tab.inactiveBackground": "#f2e5da",
+        "tab.inactiveForeground": "#0d7680",
+
+        "activityBar.background": "#f2dfce",
+        "activityBar.foreground": "#000000",
+        "activityBarBadge.background": "#0d7680",
+
+        // "#f2dfce", // P1
+        // "#f2e5da", // P2
+        // "#faeadc", // P3
+        // "#fff1e5", // P4
+        // #fff9f4", // P5
+
+        // "#093766", // B1
+        // "#0f5499", // B2
+        // "#2c6d9c",
+        // "#426ca1" // B3
+        // "#007bff", // B4
+        // "#cce6ff", // B4
+
+        // "#0a5e66" // 
+        // "#0d7680", // T1
+        // "#cad7d9"
+        // "#e9e4db", // T2
+
+        // "#458b00", // G1
+        // "#e5f2ce", // G2
+
+        // "#c00", // R1
+        // "#ee2f01",
+        // "#ff767c", 
+        // "#ffd8ce", // R2
+
+        // "#990f3d", // P1
+        // "#a81143", // P1
+
+        // "#ff8c00", // O1
+
+        // "#000", // D1
+        // "#33302e" // ?
+        // "#333", // D2
+        // "#51555c"
+        // "#737373", // D3
+        // "#a8aaad"
+
+        // "#66605c" // ?
+        // "#807973" // D4
+
+
     },
     "workbench.iconTheme": null,
     "workbench.editor.enablePreview": false,
@@ -24,4 +172,5 @@
         "editor.tabSize": 4
     },
     "explorer.confirmDragAndDrop": false,
+    "workbench.activityBar.visible": true,
 }
