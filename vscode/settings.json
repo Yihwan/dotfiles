@@ -1,11 +1,37 @@
 {
+    "colorInfo.languages": [
+        {
+            "selector": "css",
+            "colors": "css"
+        },
+        {
+            "selector": "sass",
+            "colors": "css"
+        },
+        {
+            "selector": "scss",
+            "colors": "css"
+        },
+        {
+            "selector": "less",
+            "colors": "css"
+        },
+        {
+            "selector": "html",
+            "colors": "css"
+        },
+        {
+            "selector": "javascript",
+            "colors": "css"
+        }
+    ],
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.formatOnPaste": true,
     "workbench.startupEditor": "newUntitledFile",
-    "editor.fontSize": 16,
-    "terminal.integrated.fontSize": 16,
+    "editor.fontSize": 15,
+    "terminal.integrated.fontSize": 15,
     "editor.minimap.enabled": false,
-    "window.zoomLevel": 0,
+    "window.zoomLevel": -1,
     "editor.tabSize": 2, 
     "editor.rulers": [80],
     "editor.tokenColorCustomizations": {
@@ -164,7 +190,6 @@
     "workbench.editor.enablePreview": false,
     "javascript.implicitProjectConfig.experimentalDecorators": true,
     "files.exclude": {
-        "node_modules/": true
     },
     "window.reOpenFolders": "all",
     "javascript.updateImportsOnFileMove.enabled": "never",
@@ -173,4 +198,5 @@
     },
     "explorer.confirmDragAndDrop": false,
     "workbench.activityBar.visible": true,
+    "editor.suggestOnTriggerCharacters": false
 }
