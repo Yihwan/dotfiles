@@ -9,7 +9,7 @@
     "editor.fontSize": 13,
     "terminal.integrated.fontSize": 13,
     "editor.minimap.enabled": false,
-    "window.zoomLevel": -1,
+    "window.zoomLevel": 0,
     "editor.tabSize": 2, 
     "editor.rulers": [80],
     "editor.tokenColorCustomizations": {
@@ -119,50 +119,7 @@
 
         "activityBar.background": "#f2dfce",
         "activityBar.foreground": "#000000",
-        "activityBarBadge.background": "#0d7680",
-
-        // "#f2dfce", // P1
-        // "#f2e5da", // P2
-        // "#faeadc", // P3
-        // "#fff1e5", // P4
-        // #fff9f4", // P5
-
-        // "#093766", // B1
-        // "#0f5499", // B2
-        // "#2c6d9c",
-        // "#426ca1" // B3
-        // "#007bff", // B4
-        // "#cce6ff", // B4
-
-        // "#0a5e66" // 
-        // "#0d7680", // T1
-        // "#cad7d9"
-        // "#e9e4db", // T2
-
-        // "#458b00", // G1
-        // "#e5f2ce", // G2
-
-        // "#c00", // R1
-        // "#ee2f01",
-        // "#ff767c", 
-        // "#ffd8ce", // R2
-
-        // "#990f3d", // P1
-        // "#a81143", // P1
-
-        // "#ff8c00", // O1
-
-        // "#000", // D1
-        // "#33302e" // ?
-        // "#333", // D2
-        // "#51555c"
-        // "#737373", // D3
-        // "#a8aaad"
-
-        // "#66605c" // ?
-        // "#807973" // D4
-
-
+        "activityBarBadge.background": "#0d7680"
     },
     "workbench.iconTheme": null,
     "workbench.editor.enablePreview": false,
