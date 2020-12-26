@@ -1,35 +1,13 @@
 {
-    "colorInfo.languages": [
-        {
-            "selector": "css",
-            "colors": "css"
-        },
-        {
-            "selector": "sass",
-            "colors": "css"
-        },
-        {
-            "selector": "scss",
-            "colors": "css"
-        },
-        {
-            "selector": "less",
-            "colors": "css"
-        },
-        {
-            "selector": "html",
-            "colors": "css"
-        },
-        {
-            "selector": "javascript",
-            "colors": "css"
-        }
-    ],
+    "[mdx]": {
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.wordWrapColumn": 80
+    },
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.formatOnPaste": true,
     "workbench.startupEditor": "newUntitledFile",
-    "editor.fontSize": 15,
-    "terminal.integrated.fontSize": 15,
+    "editor.fontSize": 13,
+    "terminal.integrated.fontSize": 13,
     "editor.minimap.enabled": false,
     "window.zoomLevel": -1,
     "editor.tabSize": 2, 

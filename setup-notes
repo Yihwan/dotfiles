@@ -24,6 +24,12 @@ ln -sv ~/Developer/dotfiles/bash/.functions ~
 ln -sv ~/Developer/dotfiles/bash/.bash_profile ~
 ln -sv ~/Developer/dotfiles/bash/.bashrc ~
 
+## zsh 
+rm .aliases .functions .zshrc 
+ln -sv ~/Developer/dotfiles/zsh/.aliases ~
+ln -sv ~/Developer/dotfiles/zsh/.functions ~
+ln -sv ~/Developer/dotfiles/zsh/.zshrc ~
+
 ### git
 rm .gitconfig
 ln -sv ~/Developer/dotfiles/git/.gitconfig ~
