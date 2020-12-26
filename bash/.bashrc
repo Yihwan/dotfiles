@@ -1,7 +1,6 @@
 source ~/.functions
 source ~/.aliases
 
-
 export PATH=/usr/local/bin:/Users/$USER/.composer/vendor/bin:$PATH
 export NODE_OPTIONS=--max_old_space_size=4096
 export PATH="$PATH:/usr/local/Cellar/mysql@5.6/5.6.47/bin"
@@ -14,3 +13,7 @@ alias testp="vendor/bin/paratest -p12"
 alias tests="./tests/scripts/phpunit.sh --stop"
 # Run a subset of tests based on a class or test name
 alias testf="./tests/scripts/phpunit.sh --filter"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
