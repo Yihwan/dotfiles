@@ -1,5 +1,6 @@
 alias composer="php /usr/local/bin/composer"
 alias xcode="open -a Xcode"
+alias ops="open /Users/yihwankim/Screenshots"
 
 # Run test setup
 alias testsetup="./tests/scripts/phpunit_setup.sh root testing"
